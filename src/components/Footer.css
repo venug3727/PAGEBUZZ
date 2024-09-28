@@ -1,0 +1,77 @@
+.footer {
+    background: linear-gradient(180deg, #151515 0%, #048004 200%);
+    color: #fff;
+    padding: 20px;
+    margin-left: -20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 900px;
+    margin: auto;
+  }
+  .logo{
+    background: linear-gradient(to right, white, black); /* Gradient from white on the left to black on the right */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; 
+    font-size: 40px;
+    font-weight: bolder;
+
+  }
+
+
+  .footer-links {
+    margin: 10px 0;
+  }
+  
+  .footer-links p {
+    background: linear-gradient(to right, white, rgb(95, 88, 88)); /* Gradient from white on the left to black on the right */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; 
+   
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  .footer-social{
+    margin-top: 30px;
+    margin-bottom: -30px;
+  }
+  .footer-social a {
+   
+    background: linear-gradient(to right, white, rgb(240, 210, 210)); /* Gradient from white on the left to black on the right */
+    -webkit-background-clip: text; /* Clip the background to the text */
+    -webkit-text-fill-color: transparent; 
+    margin: 0 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    
+    text-align: center;
+    /* text-decoration: none; */
+    border: 1px solid #fff;
+    border-radius: 15px;
+  }
+  
+  .footer-social a:hover {
+    text-decoration: underline;
+  }
+
+.copy{
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.copy p{
+    padding-top: 10pX;
+}
+
+.copy hr{
+    border: 0; /* Remove default border */
+  height: 1px; /* Set the height of the line */
+  background: black; /* Set the background color */
+}
+  

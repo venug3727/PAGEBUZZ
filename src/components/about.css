@@ -1,0 +1,46 @@
+/* *{
+    margin: 0;
+    padding-left: 0;
+} */
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.fullbody{
+    display: flex;
+    margin-top: 90px;
+    padding-left: 30px;
+}
+
+.img img{
+    padding-right: 30px;
+    height: 390px;
+    border-radius: 90px;
+}
+.lineone{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+.lineone p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about{
+    margin-left: 8rem;
+}
+.para{
+    font-size: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.about h2{
+    font-size: 40px;
+}

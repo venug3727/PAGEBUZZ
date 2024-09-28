@@ -1,0 +1,48 @@
+.ti img{
+    height: 70px;
+    
+}
+.ti p{
+    color: #797373;
+}
+.ti{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 200px;
+    align-items: center;
+}
+.heding{
+    display: flex;
+    flex-direction: column;
+    
+}
+.fed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    gap: 200px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.card{
+    border: 1px solid #323131;
+    width: 400px;
+    
+   border-radius: 20px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    
+}
+
+.card p{
+    font-size: 25px;
+}
+
+.name p{
+    font-size: 15px;
+}
+.name {
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,38 @@
+.contn{
+    border: 2px solid #21ed43;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.titl{
+    display: flex;
+    align-items:center ;
+    gap: 10px;
+}
+
+.contn h1{
+    font-weight:500 ;
+    background: linear-gradient(
+    to right,
+    white,
+    rgb(45, 45, 45)
+  ); /* Gradient from white on the left to black on the right */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+}
+.b{
+    background-color: #21ed7d;
+    border-radius: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 20px;
+}

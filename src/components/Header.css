@@ -1,0 +1,40 @@
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 250px;
+  align-items: center;
+  padding: 10px 20px;
+  width: 100%;
+  color: black; /* Adjust text color as needed */
+}
+
+.header-logo h1 {
+  margin: 0;
+  text-align: left;
+  font-size: 24px;
+  background: linear-gradient(
+    to right,
+    white,
+    rgb(79, 77, 77)
+  ); /* Gradient from white on the left to black on the right */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-nav a:hover {
+  text-decoration: underline;
+}
+

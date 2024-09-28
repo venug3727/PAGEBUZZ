@@ -1,0 +1,122 @@
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.stats h1 {
+  font-size: 50px;
+  font-weight: 400;
+  margin-top: 5rem;
+  background: linear-gradient(
+    to right,
+    white,
+    rgb(78, 77, 77)
+  ); /* Gradient from white on the left to black on the right */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  -webkit-text-fill-color: transparent; /* Make the text color transparent */
+}
+.stats-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 2px solid rgb(93, 91, 91);
+  margin-top: 30px;
+  margin-left: 30px;
+  text-align: center;
+  width: 500px;
+
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.box h2 {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.box h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: aliceblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.box p {
+  font-size: 15px;
+  font-weight: 100;
+  color: darkgray;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.stats-box :hover {
+  background-color: rgba(52, 53, 53, 0.345);
+}
+
+.eats {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgb(47, 47, 47);
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.eats .pa {
+  padding-left: 30px;
+}
+
+.pa .headi {
+  font-size: 40px;
+  font-weight: 400;
+}
+.butt {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.butt .social {
+  height: inherit;
+  padding-top: -10px;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 30px;
+}
+
+.butt .social p {
+  text-align: center;
+  margin-top: -0.5px;
+  margin-bottom: -0.5px;
+  cursor: pointer;
+  padding-right: 6px;
+  padding-left: 6px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.butt .social:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.arr {
+  font-size: 40px;
+  margin-top: 80px;
+}
+
+.photo{
+    margin-left: 410px;
+   
+    
+}
+
+.photo img{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+}
